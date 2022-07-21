@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&family=Righteous&display=swap');
+
+body {
+    background-color: #FB6B6B;
+}
+
+.tela01 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo.tela01 {
+    Width: 136px;
+    Height: 161px;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    color: #D70900;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Recursive', sans-serif;
+}
