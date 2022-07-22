@@ -1,30 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&family=Righteous&display=swap');
-
-body {
-    background-color: #FB6B6B;
-}
-
-.tela01 {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.page01 {
     align-items: center;
-
+    justify-content: center;
+    
 }
 
-img {
-    height: 100px;
-    width: 100px;
-}
-
-.logo.tela01 {
+.logo.page01 {
     Width: 136px;
     Height: 161px;
 }
 
-.title {
-    font-family: 'Righteous', cursive;
+.page01 h1{
     font-weight: 400;
     font-size: 36px;
     line-height: 45px;
@@ -45,8 +30,4 @@ img {
     font-size: 18px;
     color: #D70900;
     margin-top: 30px;
-}
-
-p {
-    font-family: 'Recursive', sans-serif;
 }

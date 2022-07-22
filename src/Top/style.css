@@ -1,0 +1,18 @@
+.top{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.top h2 {
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.top img{
+    Width: 52px;
+    Height: 60px;
+}
+
+.title{
+    color: #FFFFFF;
+}
