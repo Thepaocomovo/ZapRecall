@@ -108,6 +108,20 @@
     background-color: #2FBE34;
 }
 
+.red{
+    text-decoration-line: line-through;
+    color: #FF3030;
+}
+
+.yellow{
+    text-decoration-line: line-through;
+    color: #FF922E;
+}
+
+.green{
+    text-decoration-line: line-through;
+    color: #2FBE34;
+}
 
 
 
