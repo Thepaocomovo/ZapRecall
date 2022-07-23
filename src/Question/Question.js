@@ -11,7 +11,7 @@ import "./style.css";
 
 import React from "react";
 
-function Question({ number, open, setOpen, Text, Answer }) {
+function Question({ number, open, setOpen, Text, Answer, done, setDone }) {
     const [mode, setMode] = React.useState(true)
     const [rotate, setRotate] = React.useState("theFlyer")
     const [color, setColor] = React.useState("")
@@ -32,6 +32,7 @@ function Question({ number, open, setOpen, Text, Answer }) {
         setColor(ink)
         setMode(!mode)
         setOpen(!open)
+        setDone([...done, ink])
     }
 
     if (mode) {

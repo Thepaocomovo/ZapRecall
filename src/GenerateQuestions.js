@@ -2,9 +2,11 @@ import Question from "./Question/Question";
 
 import React from "react";
 
-function GenerateQuestions({ deck }) {
+function GenerateQuestions({ deck, done, setDone}) {
     const [open, setOpen] = React.useState(true)
+    deck = deck.slice(4);
     let num = 0
+    
 
     let shuffledDeck = deck
         .map(value => ({ value, sort: Math.random() }))
@@ -13,7 +15,7 @@ function GenerateQuestions({ deck }) {
 
     return shuffledDeck.map((flyer, index) => {
         num++;
-        return <Question number={num} open={open} setOpen={setOpen} Text={flyer.Text} Answer={flyer.Answer} key={index} />
+        return <Question number={num} open={open} setOpen={setOpen} Text={flyer.Text} Answer={flyer.Answer} done={done} setDone={setDone} key={index} />
     })
 }
 
