@@ -1,5 +1,5 @@
 import Top from "../Top/Top";
-import GenerateQuestions from "../GenerateQuestions";
+import GenerateQuestions from "../GenerateQuestions/GenerateQuestions";
 import DoneBar from "../DoneBar/DoneBar";
 
 import "./style.css"
