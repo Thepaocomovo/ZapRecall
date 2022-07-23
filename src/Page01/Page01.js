@@ -11,11 +11,11 @@ function Page01() {
     function Click() {
         setStart(!start)
     }
-    if(start){
-        return <Page02/>
+    if (start) {
+        return <Page02 />
     }
     return <div className="page page01">
-        <img src={logo}alt="" className="logo" />
+        <img src={logo} alt="" className="logo" />
         <h1>ZapRecall</h1>
         <div className="start" onClick={() => Click()}>
             <p>Iniciar Recall</p>

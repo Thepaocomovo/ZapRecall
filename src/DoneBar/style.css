@@ -1,4 +1,4 @@
-.doneBar{
+.doneBar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -11,38 +11,37 @@
     background-color: #ffffff;
 }
 
-.doneBar.expand{
+.doneBar.expand {
     height: 171px;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
 }
 
-.icons img{
-    width:28px;
+.icons img {
+    width: 28px;
     padding: 5px
-
 }
 
-.title{
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
 }
 
-.title p{
+.title p {
     font-size: 18px;
     margin-left: 10px;
 }
 
-.title img{
+.title img {
     width: 23px;
 }
 
-.data{
+.data {
     font-size: 22px;
     margin-top: 15px;
     display: flex;
@@ -51,6 +50,6 @@
     justify-content: center;
 }
 
-.text{
+.text {
     font-size: 22px;
 }

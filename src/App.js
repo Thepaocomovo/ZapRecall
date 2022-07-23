@@ -4,7 +4,7 @@ import "./assets/reset.css";
 import "./assets/styles.css";
 
 
-function App(){
+function App() {
     return <Page01 />
 }
 
