@@ -1,16 +1,24 @@
 import Top from "../Top/Top";
-import Question from "../Question/Question";
+import GenerateQuestions from "../GenerateQuestions";
 import DoneBar from "../DoneBar/DoneBar";
 
+import "./style.css"
+
+const deck = [
+    {Text: "O que é JSX?", Answer:"Uma extensão de linguagem do JavaScript" }, 
+    {Text: "Podemos colocar ___ dentro do JSX", Answer:"expressões" }, 
+    {Text: "A primeira letra de um componente deve ser...", Answer:"letra maiúscula" }, 
+    {Text: "O que o React é?", Answer:"uma biblioteca JavaScript para construção de interfaces" }
+]
+
+
+
 function Page02() {
+    
     return <div className="page page02">
         <Top />
-        <Question number="1" />
-        <Question number="2" />
-        <Question number="3" />
-        <Question number="4" />
-
-        <DoneBar/>
+        <GenerateQuestions deck={deck}/>
+        <DoneBar />
     </div>
 }
 
