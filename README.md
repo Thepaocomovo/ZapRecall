@@ -1,7 +1,7 @@
 <h1>ZapRecall</h1>
 
 <h2>One of my first projects using React.js</h2> 
-<h2>An aplication made to display some flashcards where the user would use to memorize aquired knowledge. 
+<h2>A single page aplication made to display some flashcards where the user would use to memorize aquired knowledge. 
   Curiously a really interest project idea to practice my recent aquired knowledge in React. </h2>
 
 
